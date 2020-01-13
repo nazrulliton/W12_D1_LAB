@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ab0216-d8e4-461f-8ae7-1293ebd30f96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Management/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Management/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechStaff/DBA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechStaff/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DbaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Management/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Management/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechStaff/DBA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechStaff/Dba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechStaff/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechStaff/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Management/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Management/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EmployeeTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,40 +55,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest.canGetPayBonus">
-    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DbaTest">
+    <configuration name="DbaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="MAIN_CLASS_NAME" value="DbaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest.canGetEmployeeName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeveloperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
-      <option name="METHOD_NAME" value="canGetEmployeeName" />
+      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.canGetDeptName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InheritanceLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
+      <option name="METHOD_NAME" value="canGetDeptName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest.canGetPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManagerTest.canGetPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
       <option name="METHOD_NAME" value="canGetPayBonus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest.canRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManagerTest.canRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
       <option name="METHOD_NAME" value="canRaiseSalary" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -96,10 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeTest.canGetPayBonus" />
-        <item itemvalue="JUnit.EmployeeTest.canRaiseSalary" />
-        <item itemvalue="JUnit.EmployeeTest" />
-        <item itemvalue="JUnit.EmployeeTest.canGetEmployeeName" />
+        <item itemvalue="JUnit.DbaTest" />
+        <item itemvalue="JUnit.DeveloperTest" />
+        <item itemvalue="JUnit.ManagerTest.canGetPayBonus" />
+        <item itemvalue="JUnit.ManagerTest.canRaiseSalary" />
+        <item itemvalue="JUnit.ManagerTest.canGetDeptName" />
       </list>
     </recent_temporary>
   </component>

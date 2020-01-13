@@ -10,7 +10,7 @@ public class EmployeeTest {
     Employee employee;
     @Before
     public void before(){
-    employee = new Manager("Joeseph", "JM404040", 30000);}
+    employee = new Manager("Joeseph", "JM404040", 30000, "Reception");}
 
     @Test
     public void canGetEmployeeName(){
