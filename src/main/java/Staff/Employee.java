@@ -36,7 +36,8 @@ public abstract class Employee {
     }
     public void raiseSalary(Double incrementOfIncrease){
         double amountToAdd = salary * incrementOfIncrease;
-            salary += amountToAdd ;
+        if (amountToAdd >= 0) {
+            salary += amountToAdd ;}
     }
     public double payBonus(){
         return salary * 0.01;
