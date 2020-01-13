@@ -46,20 +46,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeveloperTest.canRaiseSalary">
+  <component name="RunManager" selected="JUnit.EmployeeTest.canSetEmployeeName">
     <configuration name="DbaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DbaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeveloperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InheritanceLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,6 +76,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeTest.canSetEmployeeName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InheritanceLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="METHOD_NAME" value="canSetEmployeeName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagerTest.canRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeTest.canSetEmployeeName" />
         <item itemvalue="JUnit.DeveloperTest.canRaiseSalary" />
         <item itemvalue="JUnit.ManagerTest.canRaiseSalary" />
         <item itemvalue="JUnit.EmployeeTest.canRaiseSalary" />
         <item itemvalue="JUnit.DbaTest" />
-        <item itemvalue="JUnit.DeveloperTest" />
       </list>
     </recent_temporary>
   </component>
