@@ -46,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DirectorTest.canGetBudget">
+  <component name="RunManager" selected="JUnit.DirectorTest.bonusSetAt2Percent">
     <configuration name="DeveloperTest.canRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,21 +57,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectorTest.canGetBudget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.bonusSetAt2Percent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DirectorTest" />
-      <option name="METHOD_NAME" value="canGetBudget" />
+      <option name="METHOD_NAME" value="bonusSetAt2Percent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest.canRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.canGetBudget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
-      <option name="METHOD_NAME" value="canRaiseSalary" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="canGetBudget" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectorTest.bonusSetAt2Percent" />
         <item itemvalue="JUnit.DirectorTest.canGetBudget" />
         <item itemvalue="JUnit.EmployeeTest.canSetEmployeeName" />
         <item itemvalue="JUnit.DeveloperTest.canRaiseSalary" />
         <item itemvalue="JUnit.ManagerTest.canRaiseSalary" />
-        <item itemvalue="JUnit.EmployeeTest.canRaiseSalary" />
       </list>
     </recent_temporary>
   </component>
