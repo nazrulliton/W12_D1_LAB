@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ab0216-d8e4-461f-8ae7-1293ebd30f96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DirectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,21 +46,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest.canSetEmployeeName">
-    <configuration name="DbaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InheritanceLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DbaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DirectorTest.canGetBudget">
     <configuration name="DeveloperTest.canRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
       <option name="METHOD_NAME" value="canRaiseSalary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest.canGetBudget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InheritanceLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="canGetBudget" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectorTest.canGetBudget" />
         <item itemvalue="JUnit.EmployeeTest.canSetEmployeeName" />
         <item itemvalue="JUnit.DeveloperTest.canRaiseSalary" />
         <item itemvalue="JUnit.ManagerTest.canRaiseSalary" />
         <item itemvalue="JUnit.EmployeeTest.canRaiseSalary" />
-        <item itemvalue="JUnit.DbaTest" />
       </list>
     </recent_temporary>
   </component>
